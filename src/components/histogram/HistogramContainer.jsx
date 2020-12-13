@@ -2,7 +2,10 @@ import { Component } from 'react';
 import { Histogram} from "./Histogram";
 
 
-
+// @WHAT
+// This is the container of the histogram.
+// Data is fetched here and putted into the histogram component.
+// TODO: Make sure the histogram gets filled with the data from the api.
 export class HistogramContainer extends Component {
     state = {
         results: [],

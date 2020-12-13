@@ -2,7 +2,7 @@ import React, {Component} from "react"
 import { HistogramContainer } from './HistogramContainer'
 import {Heading} from "@instructure/ui-heading";
 
-
+// This file displays all the components of the histogram.
 export class ChartOverview extends Component {
 
     render() {
