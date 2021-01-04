@@ -22,8 +22,6 @@ export class HistogramContainer extends Component {
         const dataPassed = await responsePassed.json();
         const dataFailed = await responseFailed.json();
 
-
-        // all the fetched data
         // const data = [dataPassed, dataFailed]
 
 

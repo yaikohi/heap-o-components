@@ -1,6 +1,7 @@
-import React, {Component} from "react"
-import { HistogramContainer } from './HistogramContainer'
+import React, {Component} from "react";
+import { Histogram } from './Histogram';
 import {Heading} from "@instructure/ui-heading";
+import {tests} from './SelectData';
 
 // This file displays all the components of the histogram.
 export class ChartOverview extends Component {
@@ -15,7 +16,8 @@ export class ChartOverview extends Component {
                     <br/>
                     Klik op "voldoendes" of "onvoldoendes" bovenin de grafiek.
                 </p>
-                <HistogramContainer />
+                <tests />
+                <Histogram />
             </div>
         )
     }

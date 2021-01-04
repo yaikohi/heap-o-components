@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import '@instructure/canvas-theme';
 
 import {ChartOverview} from "./components/histogram/ChartOverview";
@@ -8,9 +9,16 @@ import {
     Switch,
     Route} from "react-router-dom"
 
+import person from "./components/Person";
+
+
+
 function App() {
   return (
       <div className="App">
+
+          <person age={37}/>
+
         <Router>
           <div className="Navbar">
             <nav className='side-nav'>
@@ -21,6 +29,9 @@ function App() {
                 <Route Exact path="/"  component={ChartOverview} />
             </Switch>
         </Router>
+
+
+
       </div>
   );
 }
