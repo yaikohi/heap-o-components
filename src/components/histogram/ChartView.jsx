@@ -4,7 +4,7 @@ import {Heading} from "@instructure/ui-heading";
 import {tests} from './SelectData';
 
 // This file displays all the components of the histogram.
-export class ChartOverview extends Component {
+export class ChartView extends Component {
 
     render() {
         return (
