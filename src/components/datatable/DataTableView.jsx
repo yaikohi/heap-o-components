@@ -1,5 +1,5 @@
 import React, { useState, useEffect} from "react";
-import { DataTable } from "../Components/DataTable"
+import { DataTable } from "DataTable"
 
 
 export function DataTableView() {
