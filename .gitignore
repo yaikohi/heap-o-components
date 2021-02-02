@@ -29,3 +29,5 @@ yarn-error.log*
 .idea/modules.xml
 .gitignore
 .idea/vcs.xml
+src/components/histogram/SelectData.jsx
+.gitignore
